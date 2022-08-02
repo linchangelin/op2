@@ -1,0 +1,35 @@
+
+Usage: postProcess [OPTIONS]
+options:
+  -case <dir>       specify alternate case directory, default is the cwd
+  -constant         include the 'constant/' dir in the times list
+  -dict <file>      read control dictionary from specified location
+  -field <name>     Specify the name of the field to be processed, e.g. U
+  -fields <list>    Specify a list of fields to be processed, e.g. '(U T p)' -
+                    regular expressions not currently supported
+  -fileHandler <handler>
+                    override the fileHandler
+  -func <name>      Specify the name of the functionObject to execute, e.g. Q
+  -funcs <list>     Specify the names of the functionObjects to execute, e.g.
+                    '(Q div(U))'
+  -hostRoots <(((host1 dir1) .. (hostN dirN))>
+                    slave root directories (per host) for distributed running
+  -latestTime       select the latest time
+  -libs <(lib1 .. libN)>
+                    pre-load libraries
+  -list             List the available configured functionObjects
+  -noFunctionObjects
+                    do not execute functionObjects
+  -noZero           exclude the '0/' dir from the times list
+  -parallel         run in parallel
+  -region <name>    specify alternative mesh region
+  -roots <(dir1 .. dirN)>
+                    slave root directories for distributed running
+  -time <ranges>    comma-separated time ranges - eg, ':10,20,40:70,1000:'
+  -srcDoc           display source code in browser
+  -doc              display application documentation in browser
+  -help             print the usage
+
+Using: OpenFOAM-9 (see https://openfoam.org)
+Build: 9-710dba47639b
+
