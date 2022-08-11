@@ -1,0 +1,5 @@
+rhoSimpleFoam.C
+
+//EXE = $(FOAM_APPBIN)/rhoSimpleFoam
+EXE = $(FOAM_USER_APPBIN)/my_rhoSimpleFoam
+//LIB = $(FOAM_USER_LIBBIN)/libZYsampling
